@@ -2,12 +2,10 @@
 
 <h1 align="center">Welcome! 👋</h1>
 
-<img height="100">
+<br>
+<br>
 
 <h3 align="center">Here are my tech stack</h3>
-
-<img height="20">
-
 <div align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="Html5"/>
   <img width="10"/>
@@ -28,24 +26,21 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="Python"/>
 </div>
 
-<img height="100">
+<br>
+<br>
 
 <h3 align="center">Check out my social media</h3>
-
-<img height="20">
-
 <div align="center">
   <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="40" alt="Linkedin"/>
   <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&labelColor=&style=for-the-badge" height="40" alt="Discord"/>
 </div>
-
-<img height="20">
-
+<br>
 <div align="center">
   <img src="https://spotify-recently-played-readme.vercel.app/api?user=31fevr2rbpigidn37ezzldcjqomu&count=3" alt="Spotify recently played"/>
 </div>
 
-<img height="100">
+<br>
+<br>
 
 <h3 align="center">Find more on my <a href="https://www.meadowhub.net">WEBSITE</a></h3>
 
