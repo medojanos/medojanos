@@ -5,7 +5,7 @@
 <br>
 <br>
 
-<h3 align="center">Here are my tech stack</h3>
+<h3 align="center">Here is my tech stack</h3>
 <div align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="Html5"/>
   <img width="10"/>
