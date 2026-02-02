@@ -5,7 +5,7 @@
 <br>
 <br>
 
-<h3 align="center">Here is my tech stack</h3>
+<h2 align="center">Here is my tech stack</h2>
 <div align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="Html5"/>
   <img width="10"/>
@@ -31,7 +31,7 @@
 <br>
 <br>
 
-<h3 align="center">Check out my social media</h3>
+<h2 align="center">Check out my social media</h2>
 <div align="center">
   <img src="https://img.shields.io/static/v1?message=GitHub&logo=github&label=&color=7289DA&logoColor=white&labelColor=&style=for-the-badge" height="40" alt="GitHub"/>
   <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="40" alt="Linkedin"/>
@@ -45,6 +45,6 @@
 <br>
 <br>
 
-<h3 align="center">Find more on my <a href="https://www.meadowhub.net">WEBSITE</a></h3>
+<h2 align="center">Find more on my <a href="https://www.meadowhub.net">WEBSITE</a></h2>
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=100&section=footer&reversal=false&fontSize=70&fontColor=FFFFFF&fontAlign=50&fontAlignY=50&stroke=-&animation=twinkling&descSize=20&descAlign=50&descAlignY=50&theme=cobalt"/>
