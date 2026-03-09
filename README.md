@@ -33,9 +33,10 @@
 
 <h2 align="center">Check out my social media</h2>
 <div align="center">
-  <img src="https://img.shields.io/static/v1?message=GitHub&logo=github&label=&color=7289DA&logoColor=white&labelColor=&style=for-the-badge" height="40" alt="GitHub"/>
-  <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="40" alt="Linkedin"/>
-  <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&labelColor=&style=for-the-badge" height="40" alt="Discord"/>
+  <a href="https://github.com/medojanos"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" height="40" alt="GitHub"/></a>
+  <a href="https://www.linkedin.com/in/medojanos/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="40" alt="LinkedIn"/></a>
+  <a href="https://discord.com/users/410099421251108866"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" height="40" alt="Discord"/></a>
+  <a href="https://soundcloud.com/medojanos"><img src="https://img.shields.io/badge/SoundCloud-FF5500?style=for-the-badge&logo=soundcloud&logoColor=white" height="40" alt="SoundCloud"/></a>
 </div>
 <br>
 <div align="center">
@@ -45,6 +46,8 @@
 <br>
 <br>
 
-<h2 align="center">Find more on my <a href="https://www.meadowhub.net">WEBSITE</a></h2>
+<div align="center">
+  <h2>Find more on my <a href="https://meadowhub.net/">WEBSITE</a></h2>
+</div>
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=100&section=footer&reversal=false&fontSize=70&fontColor=FFFFFF&fontAlign=50&fontAlignY=50&stroke=-&animation=twinkling&descSize=20&descAlign=50&descAlignY=50&theme=cobalt"/>
