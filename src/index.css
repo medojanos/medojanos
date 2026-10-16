@@ -36,6 +36,7 @@ button:disabled {
 }
 
 a {
+  text-decoration: none;
   color: inherit;
 }
 
@@ -49,4 +50,8 @@ a {
 }
 .expanding:hover {
   transform: scale(1.1);
+}
+
+p {
+  margin: 0;
 }

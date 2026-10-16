@@ -19,7 +19,6 @@ createRoot(document.getElementById('root')).render(
         <Route path="/servers" element={<Servers />} />
         <Route path="/games" element={<Games />} />
         <Route path="/socials" element={<Socials />} />
-        <Route path="/*" element={<Home />} />
       </Routes>
     </BrowserRouter>
   </StrictMode>,

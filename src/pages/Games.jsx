@@ -1,4 +1,3 @@
-import Navbar from "../components/Navbar"
 import Game from "../components/Game"
 
 import SNAKE from "/assets/gamebanners/snake.png"
@@ -11,8 +10,7 @@ import "../styles/backgrounds.css"
 export default function Games() {
   return (
     <>
-      <Navbar />
-      <Banner title="Games"/>
+      <Banner id="games"/>
       <section>
         <Game name="Snake" img={SNAKE} description="Classic snake game"></Game>
         <Game name="Holy Flappy Square" img={SQUARE} description="Game inspired by flappy bird with a little change in visuals"></Game>

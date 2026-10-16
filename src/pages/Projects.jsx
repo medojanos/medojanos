@@ -1,4 +1,3 @@
-import Navbar from "../components/Navbar"
 import Project from "../components/Project"
 import Banner from "../components/Banner"
 
@@ -10,10 +9,9 @@ import CIRCLE from "/projects/random-circle/logo.svg"
 export default function Projects() {
   return (
     <>
-      <Navbar />
-      <Banner title="Projects"/>
+      <Banner id="projects"/>
       <div className="container pb-5">
-        <div className="row row-cols-1 row-cols-lg-2 g-5">
+        <div className="row row-cols-1 row-cols-md-2 mx-auto g-5">
           <Project name="Vektor" url="https://vektor.meadowhub.net/" img="https://vektor.meadowhub.net/favicon.svg" description="Route planner."/>
           <Project name="MaxxedOut" url="https://maxxedout.meadowhub.net/" img="https://maxxedout.meadowhub.net/favicon.svg" description="Workout tracker."/>
           <Project name="Password Generator" url="/projects/password-generator/index.html" img={PASSWORD} description="You can generate strong passwords."/>

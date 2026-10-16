@@ -11,7 +11,7 @@ export default function Home() {
           <a href="#discover"><ion-icon name="arrow-down-circle"></ion-icon></a>
         </div>
       </div>
-      <nav id="discover">
+      <nav id="discover" className="py-3">
         <div className="container text-center">
           <h2 className="mb-5">Discover</h2>
           <div className="row">

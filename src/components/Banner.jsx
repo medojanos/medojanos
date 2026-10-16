@@ -1,14 +1,15 @@
-export default function Banner({title, light = false}) {
+import Navbar from "./Navbar";
+
+export default function Banner({id}) {
     return (
-        <div 
-            id={title.toLowerCase()}
-            className="my-5"
-            style={{height: "10rem"}}>
-            <h3 
-                className="p-4 fw-bold"
-                style={{color: light ? "inherit" : "whitesmoke"}}>
-                {title}
-            </h3>
-        </div>
+        <>
+            <div 
+                id={id}
+                className="mb-5 pb-2 d-flex align-items-center justify-content-center"
+                style={{height: "10rem"}}
+            >
+                <Navbar/>
+            </div>
+        </>
     )
 }
