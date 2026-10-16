@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="icon/x-image" href="logo.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css">
+    <title>Password generator</title>
+</head>
+<body>
+    <div id="j" class="mt-3 p-3">
+        <h1 class="text-center">Password generator</h1>
+
+        <input id="csuszka" class="mt-3" type="range" min="4" value="8" max="32" oninput="hossz()">
+        <label for="csuszka">Password length: <span id="hossz">8</span></label>
+        <br>
+
+        <input id="sajat" class="mt-2" type="radio" name="eljaras" onclick="valaszt('frissit')">
+        <label for="sajat">Custom characters</label>
+        <br>
+        <input id="karakterek" class="ms-3 mt-1" type="text" placeholder="Pl.: apple123" onclick="valaszt('karakterek')">
+        <br>
+
+        <input id="egyedi" class="mt-3" type="radio" name="eljaras" onclick="valaszt('frissit')">
+        <label for="egyedi">Custom</label>
+        <br>
+        <input id="kisbetuk" class="ms-3" type="checkbox" name="egyedi" onclick="valaszt('egyediek')">
+        <label for="kisbetuk">Small letters</label>
+        <br>
+        <input id="nagybetuk" class="ms-3" type="checkbox" name="egyedi" onclick="valaszt('egyediek')">
+        <label for="nagybetuk">Big letters</label>
+        <br>
+        <input id="szamok" class="ms-3" type="checkbox" name="egyedi" onclick="valaszt('egyediek')">
+        <label for="szamok">Numbers</label>
+        <br>
+        <input id="specialis" class="ms-3" type="checkbox" name="egyedi" onclick="valaszt('egyediek')">
+        <label for="specialis">Special characters</label>
+        <br>
+
+        <input id="random" class="mt-2" type="radio" name="eljaras" checked="true" onclick="valaszt('frissit')">
+        <label for="random">Random</label>
+        <br>
+
+        <p id="jelszo"></p>
+        
+        <button id="generalas" type="button" onclick="generalas()">GENERATE</button>
+
+        <button id="masolas" type="button"
+        onclick="masolas()">COPY</button>
+
+        <button id="alap" type="button" onclick="alap()">DEFAULT</button>
+    </div>
+    <script src="script.js"></script> 
+</body>
+</html> 

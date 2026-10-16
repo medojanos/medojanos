@@ -1,0 +1,52 @@
+@media (max-width: 992px) {
+  section {
+    width: 90% !important;
+  }
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", helvetica, arial, sans-serif;
+  scroll-behavior: smooth;
+  text-align: justify;
+  background-color: beige;
+  font-size: large;
+}
+
+section {
+  width: 60%;
+  margin: auto;
+}
+
+button {
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  border: none;
+  background-color: black;
+  color: white;
+}
+.button-secondary {
+  background-color: beige;
+  border: 1px solid black;
+  color: black;
+}
+button:disabled {
+  background-color: darkgray;
+}
+
+a {
+  color: inherit;
+}
+
+.active {
+  background-color: #333;
+  border-radius: 0.5rem;
+}
+
+.expanding {
+  transition: all 0.3s ease;
+}
+.expanding:hover {
+  transform: scale(1.1);
+}

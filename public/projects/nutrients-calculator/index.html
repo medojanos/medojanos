@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nutrients calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image" href="logo.png">
+    <script src="script.js"></script>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>
+                Calories
+            </td>
+            <td>
+                <input id="calorie" type="number" onchange="count('calorie')" value="0">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Fat
+            </td>
+            <td>
+                <input id="fat" type="number" onchange="count('nutrients')" value="0">
+            </td>
+            <td>
+                <input id="fatPercent" type="number" onchange="count('percent')" max="100" min="0" value="25">%
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Carbohydrate
+            </td>
+            <td>
+                <input id="carbohydrate" type="number" onchange="count('nutrients')" value="0">
+            </td>
+            <td>
+                <input id="carbohydratePercent" type="number" onchange="count('percent')" max="100" min="0" value="50">%
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Protein
+            </td>
+            <td>
+                <input id="protein" type="number" onchange="count('nutrients')" value="0">
+            </td>
+            <td>
+                <input id="proteinPercent" type="number" onchange="count('percent')" max="100" min="0" value="25">%
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

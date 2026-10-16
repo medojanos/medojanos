@@ -1,0 +1,31 @@
+@media only screen and (min-width: 768px) {
+	#controls {
+		display: none;
+	}
+}
+
+html { height: 100%; }
+
+body {
+ 	background-image: url(img/bg.png);
+	background-repeat: no-repeat;
+  	background-attachment: fixed;
+	background-size: cover;
+	color: whitesmoke;
+}
+
+a {
+	color: inherit;
+}
+
+#gameArea {
+	background-image: url(img/canvasbg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+}
+
+#controls button {
+	height: 5rem;
+	width: 5rem;
+}

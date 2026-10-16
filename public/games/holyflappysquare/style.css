@@ -1,0 +1,56 @@
+@media only screen and (min-width: 992px) {
+	#colors {
+		width: 50%;
+		float: right;
+	}
+
+	#controls {
+		width: 50%;
+	}
+}
+@media only screen and (min-width: 1400px) {
+	#colors {
+		width: 25%;
+		float: right;
+	}
+
+	#controls {
+		width: 25%;
+	}
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	font-family: "Lucida Console", monospace;
+ 	background-image: url(img/bg.png);
+	background-repeat: no-repeat;
+  	background-attachment: fixed;
+	background-size: cover;
+	background-position: 0;
+}
+			
+#gameArea {
+	background-image: url(img/jesus.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 100%;
+}
+
+#colors button{
+	height: 2rem;
+}
+
+#jumpButton {
+	height: 5rem;
+	border-radius: 10px;
+}
+
+a {
+	color: inherit;
+}
+			

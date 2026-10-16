@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+		<title>Holy Flappy Square</title>
+		<link rel="icon" type="icon/x-image" href="img/red.png">
+    	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"/>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<h1 class="text-center m-5"><a href="">Holy Flappy Square</a></h1>
+		<div class="container-fluid">
+			<div class="row justify-content-center">
+				<div class="col-10 col-sm-8 col-lg-2 col-xl-3 col-xxl-4 mb-2">
+					<div id="colors">
+						<p class="text-center"><b><span id="selectedColor">Red</span></b> choosed!</p>
+						<div class="row row-cols-3 row-cols-lg-1 gy-2">
+							<button class="col" style="background-color: cyan;" onmousedown="changeColor('cyan')"></button>
+							<button class="col" style="background-color: purple;" onmousedown="changeColor('purple')"></button>
+							<button class="col" style="background-color: red;" onmousedown="changeColor('red')"></button>
+							<button class="col" style="background-color: orange;" onmousedown="changeColor('orange')"></button>
+							<button class="col" style="background-color: yellow;" onmousedown="changeColor('yellow')"></button>
+							<button class="col" style="background-color: limegreen;" onmousedown="changeColor('green')"></button>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-sm-10 col-lg-8 col-xl-6 col-xxl-4 text-center">
+					<canvas id="gameArea" width="1000" height="800"></canvas>
+				</div>
+				<div class="col-10 col-sm-8 col-lg-2 col-xl-3 col-xxl-4"> 
+					<div id="controls">
+						<div class="row row-cols-lg-1 justify-content-center gy-2 mt-2">
+							<button class="col-6" onclick="loadGame()" id="startButton">START</button>
+							<button class="col-6" onclick="restartGame()" id="restartButton" disabled>RESTART</button>
+							<button class="col-6" onmousedown="jump(5)" id="jumpButton" disabled>UP</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<p class="text-center my-3">Enter - Start game<br>Space - Jump<br>R - Restart</p>
+		<script src="script.js"></script>
+	</body>
+</html>

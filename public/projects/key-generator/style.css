@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(255, 150, 50);
+}
+
+#c {
+    text-align: center;
+    width: fit-content;
+    margin: auto;
+}
+
+#key {  
+    background-color: red;
+    border: 3px solid black;
+    padding: 10px;
+    text-align: center;
+    min-width: 160px;
+}
+
+#clipboard {
+    background-color: red;
+    border: 3px solid black;
+}
+
+#generate {
+    background-color: red;
+    border: 3px solid black;
+}
