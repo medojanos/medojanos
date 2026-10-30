@@ -28,8 +28,8 @@ export default function Home() {
                 <p>Servers</p>
             </div>
             <div className="col">
-                <Link to="/socials"><ion-icon name="share-social" className="expanding"/></Link>
-                <p>Socials</p>
+                <Link to="/about"><ion-icon name="information-circle" className="expanding"></ion-icon></Link>
+                <p>About</p>
             </div>
           </div>
         </div>
