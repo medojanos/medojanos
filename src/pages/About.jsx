@@ -8,7 +8,7 @@ export default function About() {
       const res = await fetch(url);
       if (res.ok) {
         const text = await res.text()
-        document.getElementById("readme").innerHTML = text.slice(text.search("<!--About-->"), text.search("<!--About-->"))
+        document.getElementById("readme").innerHTML = text.slice(text.search("<!--About-->"), text.slice(text.search("<!--About-->")).search("<!--About-->"))
       } else document.getElementById("readme").innerHTML = "<p>Failed to fetch readme</p>"
     }
     fetchReadme();
