@@ -1,50 +1,39 @@
-import { Link } from "react-router-dom"
-
-import "../styles/home.css"
+import {Link} from "react-router-dom"
+import { pages } from "../data/home"
 
 export default function Home() {
   return (
     <>
-      <div id="hero">
-        <p id="title">Meadow<span>Hub</span></p>
-        <div>
-          <a href="#discover"><ion-icon name="arrow-down-circle"></ion-icon></a>
-        </div>
-      </div>
-      <nav id="discover" className="py-3">
-        <div className="container text-center">
-          <h2 className="mb-5">Discover</h2>
-          <div className="row">
-            <div className="col">
-              <Link to="/projects"><ion-icon name="code" className="expanding"/></Link>
-              <p>Projects</p>
-            </div>
-            <div className="col">
-                <Link to="/games"><ion-icon name="game-controller" className="expanding"/></Link>
-                <p>Games</p>
-            </div>
-            <div className="col">
-                <Link to="/servers"><ion-icon name="cloud" className="expanding"/></Link>
-                <p>Servers</p>
-            </div>
-            <div className="col">
-                <Link to="/about"><ion-icon name="information-circle" className="expanding"></ion-icon></Link>
-                <p>About</p>
-            </div>
-          </div>
-        </div>
-      </nav>
-      <div className="container-fluid p-5">
+      <section className="container justify-content-between align-content-between flex-wrap">
         <div className="row">
           <div className="col">
-            <h1>What is MeadowHub?</h1>
+            <h1>MeadowHub</h1>
+            <Link to=""></Link>
           </div>
           <div className="col">
-            <p>It is my personal website where I collect and present my projects or give status about my own running servers.<br/>
-              It functions as a simple central page for everything I’m involved in online. I use it to display what I’m building, what I’m working on, and where my other content and profiles can be found.</p>
+            <h2>What can you find?</h2>
+            <p>Everything that I am involved online.</p>
           </div>
         </div>
-      </div>
+      </section>
+      <section className="container section mb-5">
+        <div className="row row-cols-1 row-cols-md-2 g-5">
+          {
+            pages.map((page, index) => (
+              <div key={index} className="col">
+                <Link to={page.url} target={page.title == "Social" ? "_blank" : "_self"}>
+                  <div className={`${page.layoutClass} h-100`}>
+                    <div className={`${page.boxClass} section p-3 m-0 h-100`}>
+                      <h3>{page.title}</h3>
+                      <span className="text-accent">{page.description}</span>
+                    </div>
+                  </div>
+                </Link>
+              </div>
+            ))
+          }
+        </div>
+      </section>
     </>
   )
 }
