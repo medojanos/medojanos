@@ -81,7 +81,7 @@ a:focus {
   margin-bottom: 3rem;
 }
 .lab .box img {
-  width: 150px;
+  max-width: 100px;
 }
 .lab .text-accent {
   color: var(--lab-orange);

@@ -15,7 +15,7 @@ export default function Playground() {
       <section className="container">
         <p>Games</p>
         <hr/>
-        <div className="row">
+        <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 ">
           {
             games.map((game, index) => (
               <Game key={index} img={game.img} title={game.title} description={game.description} url={game.url}/>

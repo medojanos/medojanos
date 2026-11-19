@@ -11,11 +11,11 @@ export default function Vibes() {
           <div className="col">
             <div className="box d-flex justify-content-between align-items-center mb-3">
               <h3>Spotify</h3>
-              <a href="https://open.spotify.com/user/31fevr2rbpigidn37ezzldcjqomu?si=348dd1b4432e428e" target="_blank">Open Spotify profile</a>
+              <a className="text-end" href="https://open.spotify.com/user/31fevr2rbpigidn37ezzldcjqomu?si=348dd1b4432e428e" target="_blank">Open Spotify profile</a>
             </div>
             <div className="box d-flex justify-content-between align-items-center">
               <h3>SoundCloud</h3>
-              <a href="https://soundcloud.com/medojanos" target="_blank">Open SoundCloud profile</a>
+              <a className="text-end" href="https://soundcloud.com/medojanos" target="_blank">Open SoundCloud profile</a>
             </div>
           </div>
         </div>
@@ -24,7 +24,7 @@ export default function Vibes() {
       <section className="container section">
         <h2>Playlists</h2>
         <p className="text-secondary">For more check out my Spotify profile</p>
-        <div className="row">
+        <div className="row row-cols-1 row-cols-lg-2">
           <div className="col">
             <iframe data-testid="embed-iframe" style={{borderRadius: 12}} src="https://open.spotify.com/embed/playlist/5ZBXhTX4WOK27NxapJw34m?utm_source=generator&theme=0&si=607e81a062304923" width="100%" height="152" frameBorder="0" allowFullScreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
           </div>
